@@ -31,12 +31,10 @@
         submit.addEventListener("click", () => {
             var phone_no = input.value;
             var c_code = document.querySelector('.iti__selected-flag').title.split('+')[1];
-            console.log(phone_no,c_code.split());
             phone_no.toString();
             c_code.toString();
             var webUrl = 'https://wa.me/+'+c_code+phone_no;
             window.open(webUrl);
-            console.log(webUrl)
         })
     </script>
 </body>
